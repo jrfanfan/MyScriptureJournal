@@ -29,7 +29,13 @@ namespace MyScriptureJournal.Pages.Scriptures
         public string? SelectedBook { get; set; }
 
 
-        public async Task OnGetAsync()
+        public string BookSort { get; set; }
+        public string DateSort { get; set; }
+        public string CurrentFilter { get; set; }
+        public string CurrentSort { get; set; }
+
+
+        public async Task OnGetAsync(string sortOrder)
         {
             // Use LINQ to get distinct books, dates and titles from the Scriptures
             IQueryable<string> bookQuery = from s in _context.Scripture
@@ -46,11 +52,31 @@ namespace MyScriptureJournal.Pages.Scriptures
             if (!string.IsNullOrEmpty(SelectedBook))
             {
                 scriptures = scriptures.Where(x => x.Book == SelectedBook);
-    }
+            }
+
+            // using System;
+            BookSort = String.IsNullOrEmpty(sortOrder) ? "book_desc" : "";
+            DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+            switch (sortOrder)
+            {
+                case "book_desc":
+                    scriptures = scriptures.OrderByDescending(s => s.Book);
+                    break;
+                case "Date":
+                    scriptures = scriptures.OrderBy(s => s.AddedDate);
+                    break;
+                case "date_desc":
+                    scriptures = scriptures.OrderByDescending(s => s.AddedDate);
+                    break;
+                default:
+                    scriptures = scriptures.OrderBy(s => s.Book);
+                    break;
+            }
 
             Book = new SelectList(await bookQuery.Distinct().ToListAsync());
 
             Scripture = await scriptures.ToListAsync();
+            Scripture = await scriptures.AsNoTracking().ToListAsync();
         }
         /*public async Task<IActionResult> Index(string sortOrder)
         {

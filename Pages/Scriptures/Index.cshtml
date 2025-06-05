@@ -41,7 +41,9 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Scripture[0].AddedDate)
+                <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
+                 @Html.DisplayNameFor(model => model.Scripture[0].AddedDate)
+                </a>   
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Reference)
@@ -53,7 +55,9 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Notes)
             </th>
             <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.BookSort">
                 @Html.DisplayNameFor(model => model.Scripture[0].Book)
+                </a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Author)
