@@ -26,7 +26,7 @@
 }
 <form>
     <p>
-        <select asp-for="SelectedAuthor" asp-items="Model.Authors">
+        <select asp-for="SelectedBook" asp-items="Model.Book">
             <option value="">All</option>
         </select>
         <label>Title: <input type="text" asp-for="SearchString" /></label>
@@ -41,7 +41,7 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Title)
             </th>
             <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Scripture[0].AddedDate)</a>
+                @Html.DisplayNameFor(model => model.Scripture[0].AddedDate)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Reference)
@@ -53,7 +53,7 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Notes)
             </th>
             <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["BookSortParm"]">@Html.DisplayNameFor(model => model.Scripture[0].Book)</a>
+                @Html.DisplayNameFor(model => model.Scripture[0].Book)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Author)

@@ -14,7 +14,7 @@ namespace MyScriptureJournal.Pages.Scriptures
     public class IndexModel : PageModel
     {
         private readonly MyScriptureJournal.Data.MyScriptureJournalContext _context;
-        private string? author;
+        private string? BookField;
 
         public IndexModel(MyScriptureJournal.Data.MyScriptureJournalContext context)
         {
@@ -24,9 +24,9 @@ namespace MyScriptureJournal.Pages.Scriptures
         public IList<Scripture> Scripture { get; set; } = default!;
         [BindProperty(SupportsGet = true)]
         public string? SearchString { get; set; }
-        public SelectList? Authors { get; set; }
+        public SelectList? Book { get; set; }
         [BindProperty(SupportsGet = true)]
-        public string? SelectedAuthor { get; set; }
+        public string? SelectedBook { get; set; }
 
 
         public async Task OnGetAsync()
@@ -43,12 +43,16 @@ namespace MyScriptureJournal.Pages.Scriptures
             {
                 scriptures = scriptures.Where(s => s.Notes.Contains(SearchString));
             }
+            if (!string.IsNullOrEmpty(SelectedBook))
+            {
+                scriptures = scriptures.Where(x => x.Book == SelectedBook);
+    }
 
-            Authors = new SelectList(await bookQuery.Distinct().ToListAsync());
+            Book = new SelectList(await bookQuery.Distinct().ToListAsync());
 
             Scripture = await scriptures.ToListAsync();
         }
-        public async Task<IActionResult> Index(string sortOrder)
+        /*public async Task<IActionResult> Index(string sortOrder)
         {
             ViewData["BookSortParm"] = String.IsNullOrEmpty(sortOrder) ? "book_desc" : "Book";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
@@ -71,6 +75,6 @@ namespace MyScriptureJournal.Pages.Scriptures
             }
             Scripture = await scriptures.AsNoTracking().ToListAsync();
             return Page();
-}
+        }*/
     }
 }
