@@ -11,10 +11,13 @@ namespace MyScriptureJournal.Pages
         {
             _logger = logger;
         }
+        
 
         public void OnGet()
         {
+            
 
         }
+         
     }
 }

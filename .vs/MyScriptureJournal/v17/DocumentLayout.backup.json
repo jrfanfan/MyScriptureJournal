@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T17:51:50.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA/wB4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:17:12.998Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T00:00:36.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Scripture.cs",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
-              "RelativeDocumentMoniker": "Models\\Scripture.cs",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
-              "RelativeToolTip": "Models\\Scripture.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:01:07.256Z",
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-05T00:00:32.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:41:54.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T23:13:52.156Z",
               "EditorCaption": ""
             }
           ]

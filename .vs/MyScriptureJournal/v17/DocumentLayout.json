@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scripture.cs",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
+              "RelativeDocumentMoniker": "Models\\Scripture.cs",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
+              "RelativeToolTip": "Models\\Scripture.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:02:10.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:58:48.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T12:58:13.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

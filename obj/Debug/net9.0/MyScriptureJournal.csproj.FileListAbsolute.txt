@@ -17,7 +17,6 @@ C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\M
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\scopedcss\bundle\MyScriptureJournal.styles.css
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\scopedcss\projectbundle\MyScriptureJournal.bundle.scp.css
-C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\evebko2sxn-b9sayid5wm.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\ld6ibj96eb-61n19gt1b8.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\y5ka6vckz0-xtxxf3hu2r.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\tx8y8jv7k1-bqjiyaj88i.gz
@@ -79,8 +78,6 @@ C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\c
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\1t7lnji36f-muycvpuwrr.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\acb6h0kje4-87fc7y1x7t.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\4ztdpnw6w4-mlv21k5csn.gz
-C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\nv3jr80vzo-4fdcelh1qo.gz
-C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\1eiaoqlxnj-4fdcelh1qo.gz
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\staticwebassets.development.json
@@ -321,3 +318,8 @@ C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\bin\Debug\net9.0\r
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\MyScriptureJournal.csproj.AssemblyReference.cache
 C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\MyScript.0DD4E704.Up2Date
+C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\MyScriptureJournal.sourcelink.json
+C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\evebko2sxn-bec7pk8eru.gz
+C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\nv3jr80vzo-wh6z1ti4p0.gz
+C:\Users\jrfanfan.GHESKIO\Documents\cse325\MyScriptureJournal\obj\Debug\net9.0\compressed\1eiaoqlxnj-wh6z1ti4p0.gz

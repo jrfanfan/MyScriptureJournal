@@ -1,7 +1,11 @@
 /* _content/MyScriptureJournal/Pages/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-
+header[b-ee3u8oh0qg] {
+    background-color: #1b6ec2;
+    color: #fff;
+    padding: 10px;
+}
 a.navbar-brand[b-ee3u8oh0qg] {
   white-space: normal;
   text-align: center;
@@ -39,11 +43,17 @@ button.accept-policy[b-ee3u8oh0qg] {
   font-size: 1rem;
   line-height: inherit;
 }
-
+.text-center.display-4[b-ee3u8oh0qg] {
+    color: blueviolet;
+}
+.navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 .container[b-ee3u8oh0qg] {
+    background-color: cadetblue;
+}
 .footer[b-ee3u8oh0qg] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    background-color: #1b6ec2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
 }
