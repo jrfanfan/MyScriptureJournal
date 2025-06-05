@@ -27,17 +27,17 @@ namespace MyScriptureJournal.Pages.Scriptures
         public SelectList? Authors { get; set; }
         [BindProperty(SupportsGet = true)]
         public string? SelectedAuthor { get; set; }
-        
+
 
         public async Task OnGetAsync()
         {
             // Use LINQ to get distinct books, dates and titles from the Scriptures
             IQueryable<string> bookQuery = from s in _context.Scripture
-                                            orderby s.Book
-                                            select s.Book;
+                                           orderby s.Book
+                                           select s.Book;
             // </snippet_search_linqQuery>
             var scriptures = from s in _context.Scripture
-                           select s;
+                             select s;
 
             if (!string.IsNullOrEmpty(SearchString))
             {
@@ -48,5 +48,29 @@ namespace MyScriptureJournal.Pages.Scriptures
 
             Scripture = await scriptures.ToListAsync();
         }
+        public async Task<IActionResult> Index(string sortOrder)
+        {
+            ViewData["BookSortParm"] = String.IsNullOrEmpty(sortOrder) ? "book_desc" : "Book";
+            ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+            var scriptures = from s in _context.Scripture
+                                    select s;
+            switch (sortOrder)
+            {
+                case "book_desc":
+                    scriptures = scriptures.OrderByDescending(s => s.Book);
+                    break;
+                case "Date":
+                    scriptures = scriptures.OrderBy(s => s.AddedDate);
+                    break;
+                case "date_desc":
+                    scriptures = scriptures.OrderByDescending(s => s.AddedDate);
+                    break;
+            default:
+                scriptures = scriptures.OrderBy(s => s.Book);
+            break;
+            }
+            Scripture = await scriptures.AsNoTracking().ToListAsync();
+            return Page();
+}
     }
 }

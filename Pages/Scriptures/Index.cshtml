@@ -41,7 +41,7 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Scripture[0].AddedDate)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Scripture[0].AddedDate)</a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Reference)
@@ -53,7 +53,7 @@
                 @Html.DisplayNameFor(model => model.Scripture[0].Notes)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Scripture[0].Book)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["BookSortParm"]">@Html.DisplayNameFor(model => model.Scripture[0].Book)</a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Scripture[0].Author)
