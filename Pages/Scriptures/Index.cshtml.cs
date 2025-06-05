@@ -14,7 +14,6 @@ namespace MyScriptureJournal.Pages.Scriptures
     public class IndexModel : PageModel
     {
         private readonly MyScriptureJournal.Data.MyScriptureJournalContext _context;
-        private string? BookField;
 
         public IndexModel(MyScriptureJournal.Data.MyScriptureJournalContext context)
         {
@@ -29,10 +28,10 @@ namespace MyScriptureJournal.Pages.Scriptures
         public string? SelectedBook { get; set; }
 
 
-        public string BookSort { get; set; }
-        public string DateSort { get; set; }
-        public string CurrentFilter { get; set; }
-        public string CurrentSort { get; set; }
+        public string BookSort { get; set; } = string.Empty;
+        public string DateSort { get; set; } = string.Empty;
+        public string CurrentFilter { get; set; } = string.Empty;
+        public string CurrentSort { get; set; } = string.Empty;
 
 
         public async Task OnGetAsync(string sortOrder)
@@ -47,7 +46,7 @@ namespace MyScriptureJournal.Pages.Scriptures
 
             if (!string.IsNullOrEmpty(SearchString))
             {
-                scriptures = scriptures.Where(s => s.Notes.Contains(SearchString));
+                scriptures = scriptures.Where(s => s.Notes != null && s.Notes.Contains(SearchString));
             }
             if (!string.IsNullOrEmpty(SelectedBook))
             {

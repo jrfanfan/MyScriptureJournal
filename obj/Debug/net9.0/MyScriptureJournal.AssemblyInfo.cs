@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyScriptureJournal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f4dab2686888ba1b80f5b232bd4c315b2cfc04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aebc52103fec904c1249b861e87cecc1693b114")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyScriptureJournal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyScriptureJournal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
