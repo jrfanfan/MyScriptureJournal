@@ -8,7 +8,9 @@ namespace MyScriptureJournal.Models
     {
         public int Id { get; set; }
 
-        [StringLength(10, MinimumLength = 3)]
+        [StringLength(20, MinimumLength = 3)]
+        // starts with an uppercase letter followed by letters, numbers, comas, dot, interrogation and spaces
+        [RegularExpression(@"^[A-Z][a-zA-Z0-9,?.!:; ]*$")]
         [Required]
         public string? Title { get; set; }
 
@@ -19,14 +21,15 @@ namespace MyScriptureJournal.Models
         // Regular expression to ensure the reference starts with an uppercase letter followed by letters, numbers, and spaces
         [Display(Name = "Scripture Reference")]
         [StringLength(100, MinimumLength = 3)]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9\s]*$")]
+        [RegularExpression(@"^[A-Z][a-zA-Z0-9,?.!:; ]*$")]
         [Required]
         public string? Reference { get; set; }
 
         [Display(Name = "Scripture Text")]
         [StringLength(5000, MinimumLength = 10)]
-        [Required]
         [DataType(DataType.MultilineText)]
+        [Required]
+        
         public string? Text { get; set; }
 
         [Display(Name = "Notes")]
