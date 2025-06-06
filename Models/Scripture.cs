@@ -21,7 +21,7 @@ namespace MyScriptureJournal.Models
         // Regular expression to ensure the reference starts with an uppercase letter followed by letters, numbers, and spaces
         [Display(Name = "Scripture Reference")]
         [StringLength(100, MinimumLength = 3)]
-        [RegularExpression(@"^[A-Z][a-zA-Z0-9,?.!:; ]*$")]
+        [RegularExpression(@"^[A-Z][a-zA-Z0-9,?.!:;& ]*$")]
         [Required]
         public string? Reference { get; set; }
 
@@ -55,7 +55,7 @@ namespace MyScriptureJournal.Models
         public int? Verses { get; set; }
 
         [Display(Name = "Book")]
-        [StringLength(15, MinimumLength = 2)]
+        [StringLength(50, MinimumLength = 2)]
         [Required]
         public string? Book { get; set; }
 
