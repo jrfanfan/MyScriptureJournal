@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:models\\scripture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:pages\\scriptures\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|c:\\users\\jrfanfan.gheskio\\documents\\cse325\\myscripturejournal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3AA4FA-4B92-4F90-AAD2-2BD7AB194AA8}|MyScriptureJournal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Scripture.cs",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
-              "RelativeDocumentMoniker": "Models\\Scripture.cs",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Models\\Scripture.cs",
-              "RelativeToolTip": "Models\\Scripture.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:02:10.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:58:48.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Scriptures\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jrfanfan.GHESKIO\\Documents\\cse325\\MyScriptureJournal\\Pages\\Scriptures\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Scriptures\\Index.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T12:58:13.6Z",
+              "WhenOpened": "2025-06-07T19:48:39.599Z",
               "EditorCaption": ""
             }
           ]
